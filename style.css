@@ -1,0 +1,40 @@
+ h1{
+    color: brown;
+    size: 10cm;
+    
+ }
+ #p{
+    width: 750px;
+    height: 750px;
+    background: gray;  
+}
+#c{
+    width: 200px;
+    height: 200px;
+    background:black;
+}
+#c2{
+    width: 200px;
+    height: 200px;
+    background: yellowgreen;
+}
+#p:hover #c2{
+    background-color: blue;
+    border-radius: 150px
+}
+#p:hover #c{
+    align-items: center;
+    background-color: aqua;
+    border-radius: 150px
+}
+#c1{
+    
+    margin-left: 250px;
+    width: 200px;
+    height: 300px;
+    background-color: darkgoldenrod;
+}
+#p:hover #c1{
+    background: pink;
+}
+
